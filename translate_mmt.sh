@@ -53,7 +53,8 @@ batch_size=128
 beam=5
 src_lang=en
 
-model_dir=$model_root_dir/$task/$model_dir_tag
+#model_dir=$model_root_dir/$task/$model_dir_tag
+model_dir=checkpoints/multi30k-en2de/clip/06192016_0.5klmulti_32_sd_ran0+0.1beforeimgotlossvishal_release/
 
 checkpoint=checkpoint_best.pt
 
